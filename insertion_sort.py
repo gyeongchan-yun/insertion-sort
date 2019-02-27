@@ -1,7 +1,7 @@
 
 
 def insertion_sort(arr):
-    for i in range(0, len(arr)):
+    for i in range(1, len(arr)):  # start from second element
         val = arr[i]  # store value temporarily
         j = i
         while j > 0 and arr[j - 1] > val:
